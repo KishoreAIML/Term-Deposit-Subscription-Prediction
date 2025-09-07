@@ -32,3 +32,16 @@ The objective of this project is to build a **machine learning model** that can 
 ---
 
 ## 📂 Repository Structure
+bank-marketing-prediction/
+│
+├── data/ # Dataset files (excluded in .gitignore)
+├── notebooks/ # Jupyter notebooks for EDA and model experiments
+├── src/ # Source code (preprocessing, model training, utils)
+├── models/ # Saved ML models
+├── app/ # Flask application
+│ ├── templates/ # HTML templates
+│ └── static/ # CSS, JS, assets
+├── requirements.txt # Dependencies
+├── app.py # Flask entry point
+├── README.md # Documentation
+└── .gitignore # Ignored files
