@@ -4,7 +4,7 @@ ENV VIRTUAL_ENV=/venv
 RUN virtualenv venv -p python3
 ENV PATH="VIRTUAL_ENV/bin:$PATH"
 
-WORKIDR /app
+WORKdiR /app
 ADD . /app
 
 RUN PORT 8080
