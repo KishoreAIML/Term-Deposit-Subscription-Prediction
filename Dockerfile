@@ -7,6 +7,6 @@ ENV PATH="VIRTUAL_ENV/bin:$PATH"
 WORKdiR /app
 ADD . /app
 
-RUN PORT 8080
+ENV PORT 8080
 
 CMD ["gunicorn" , "app:app" , "--config=config.py"]
